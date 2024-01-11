@@ -5,7 +5,9 @@ function App() {
 
   return (
     <>
-      <InputTodo />
+      <div className="container">
+        <InputTodo />
+      </div>
     </>
   )
 }
