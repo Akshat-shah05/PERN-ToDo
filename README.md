@@ -12,4 +12,6 @@ Things Learned/Refreshed on:
 - pool.query --> querying to a postgreSQL database
 - SQL queries (SELECT, UPDATE, INSERT etc.)
 - psql commands from the terminal (setting up the config file path was a good refresher on bash as well)
+
+NOTE: This app has not been deployed yet, I will deploy it soon
   
