@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-key */
 import { useState, useEffect } from 'react'
+import EditTodo from './EditTodo'
 
 const ListTodos = () => {
 
@@ -57,7 +58,7 @@ const ListTodos = () => {
                 {todos.map(todo => (
                     <tr key={todo.todo_id}>
                         <td>{todo.description}</td> 
-                        <td>Edit</td>
+                        <td><EditTodo /></td>
                         <td>
                             <button 
                                 className="btn btn-danger" 
